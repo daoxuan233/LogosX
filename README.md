@@ -213,7 +213,7 @@ uv run python -m unittest
 
 ## 许可证
 
-本项目基于 [MIT 许可证](LICENSE) 开源。详细信息请参阅 `LICENSE` 文件。
+本项目基于 [Apache-2.0 许可证](LICENSE) 开源。详细信息请参阅 `LICENSE` 文件。
 
 ## 维护者与联系方式
 
