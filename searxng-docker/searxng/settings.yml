@@ -7,7 +7,7 @@ general:
 server:
   port: 8080
   bind_address: "0.0.0.0"
-  secret_key: "X_iPznGgF6N7MV9E2XuVF1DtT_Da"
+  secret_key: "<你的redis密码>"
   base_url: "http://localhost:8081/"
   limiter: false
   image_proxy: true
