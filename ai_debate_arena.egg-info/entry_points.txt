@@ -1,2 +1,0 @@
-[console_scripts]
-debate-arena = debate_arena.cli:main
