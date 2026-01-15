@@ -213,7 +213,7 @@ uv run python -m unittest
 
 ## 许可证
 
-本仓库当前未附带 `LICENSE` 文件。若你计划以开源形式发布，请先选择许可证（例如 MIT / Apache-2.0）并在仓库根目录添加 `LICENSE` 文件，同时在 GitHub 创建仓库时勾选相同的许可证选项。
+本项目基于 [MIT 许可证](LICENSE) 开源。详细信息请参阅 `LICENSE` 文件。
 
 ## 维护者与联系方式
 
