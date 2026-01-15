@@ -217,5 +217,6 @@ uv run python -m unittest
 
 ## 维护者与联系方式
 
+- 维护者：DaoXuan (daoxuan7021@gmail.com)
 - 主要沟通渠道：GitHub Issues / Discussions
-- 安全相关问题：建议通过私密渠道联系维护者后再公开披露（仓库创建后可在 README 补充邮箱或安全策略链接）
+- 安全相关问题：建议通过邮件联系维护者后再公开披露
