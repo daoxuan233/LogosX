@@ -1,0 +1,16 @@
+services:
+  searxng:
+    image: searxng/searxng:latest
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml
+    environment:
+      - SEARXNG_SETTINGS_PATH=/etc/searxng/settings.yml
+    networks:
+      - searxng
+
+networks:
+  searxng:
+    driver: bridge

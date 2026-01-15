@@ -1,0 +1,33 @@
+# 辩手通用规则（正反方共同遵循）
+
+version: 1
+
+requirements:
+  must_reply_previous: true
+  must_include_rebuttal: true
+  must_include_constructive_point: true
+  must_include_philosophy_basis: true
+  must_include_story_and_mapping: true
+
+philosophy_constraints:
+  # 经典著作引用频率（每多少轮至少一次）
+  cite_classic_every_n_rounds: 4
+  # 哲学概念提及频率（每多少轮至少一次）
+  mention_concept_every_n_rounds: 2
+
+style:
+  forbid_personal_attack: true
+  academic_tone: true
+  story_must_serve_argument: true
+
+output_schema:
+  # 要求辩手输出遵循固定字段，便于文档拼装与规则校验
+  fields:
+    - "回应对方要点"
+    - "本轮立论"
+    - "反驳点"
+    - "建设性论点"
+    - "哲学依据"
+    - "故事"
+    - "故事寓意"
+

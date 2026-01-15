@@ -1,0 +1,24 @@
+use_default_settings: true
+
+general:
+  instance_name: "SearXNG (Local)"
+  debug: false
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  secret_key: "X_iPznGgF6N7MV9E2XuVF1DtT_Da"
+  base_url: "http://localhost:8081/"
+  limiter: false
+  image_proxy: true
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  default_lang: "zh-CN"
+  formats:
+    - html
+    - json
+
+ui:
+  default_theme: simple

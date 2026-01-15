@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+outputs/
+
+# User excluded files
+.trae/
+备份材料/
+AI-辩论-方案.md
+AI-辩论-方案Ⅱ.md

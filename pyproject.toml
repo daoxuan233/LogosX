@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-debate-arena"
+version = "0.1.0"
+description = "Deep Agents 哲学辩论系统（主席控场 + 双方辩手 + 搜索缓存 + Markdown 输出）"
+readme = "docs/README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "python-dotenv>=1.0.1",
+  "PyYAML>=6.0.2",
+  "requests>=2.32.3",
+  "redis>=5.0.7",
+  "numpy>=1.26.4",
+  "sentence-transformers>=3.0.1",
+  "typing-extensions>=4.12.0",
+  "langchain==1.0.0",
+  "langchain-openai==1.0.0",
+  "langgraph==1.0.0",
+]
+
+[project.scripts]
+debate-arena = "debate_arena.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

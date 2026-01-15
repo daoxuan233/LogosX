@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 400" class="w-64 h-64 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)] transition-transform duration-500 group-hover:rotate-90" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M200 60 L 320 260 L 280 260 L 200 130 L 120 260 L 80 260 Z" fill="url(#neonGrad)" opacity="0.9" />
+                        <path d="M200 340 L 320 140 L 280 140 L 200 270 L 120 140 L 80 140 Z" fill="#ffffff" fill-opacity="0.1" style="mix-blend-mode: overlay;" />
+                        <rect x="185" y="185" width="30" height="30" transform="rotate(45 200 200)" fill="#fff" />
+                        <circle cx="200" cy="200" r="140" stroke="url(#neonGrad)" stroke-width="2" fill="none" stroke-dasharray="20 10" opacity="0.5" class="animate-spin-slow" />
+                    </svg>

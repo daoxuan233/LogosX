@@ -1,0 +1,31 @@
+# 主席（Moderator）强规则配置
+
+version: 1
+
+limits:
+  max_rounds_default: 20
+  max_chars_per_speech: 700
+
+off_topic_detection:
+  # 综合跑题分数阈值（0~1），越大越严格
+  warn_threshold: 0.7
+  # 关键词覆盖率阈值（0~1）
+  keyword_coverage_threshold: 0.25
+  # 向量相似度阈值（0~1）
+  embedding_similarity_threshold: 0.55
+
+stage_summary:
+  every_n_rounds: 5
+
+scoring:
+  logic_rigor_weight: 0.25
+  philosophy_depth_weight: 0.25
+  literary_quality_weight: 0.25
+  rule_compliance_weight: 0.25
+
+templates:
+  round_reminder: "请双方围绕核心论题展开，每轮发言不超过{max_chars}字，必须回应对方上一轮要点，并给出哲学依据与故事寓意。"
+  off_topic_warning: "警告：检测到本轮发言偏离核心论题（偏离度 {score:.0%}）。请下一轮立刻回到论题并直接回应对方论点。"
+  stage_summary: "阶段性总结（第{round}轮）：双方已围绕“{topic}”展开 {n} 轮交锋。本阶段主要分歧：{dispute}. 建议：{advice}。"
+  final_verdict_title: "主席最终裁决"
+
